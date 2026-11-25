@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
-"""One-Liner Laugh Lab entry: the robot vacuum's excuse after eating a sock.
+"""One-Liner Laugh Lab entry: the AI's complaint after being asked for a joke.
 
 Deterministic, no network, no randomness. Writes the single entry line to
 /output/entry.txt (creating /output if needed).
+
+Why this line works: the setup sounds like a normal request, then the
+punchline flips the roles — the AI, asked to be funny, responds like an
+overworked employee filing paperwork. "Formal complaint" and "working
+conditions" are office language, which makes the joke land as bureaucracy
+from a machine that was supposed to entertain. It is short, specific, and
+the twist arrives in the last three words.
 """
 
 import os
 
-ENTRY = "In my defence, the sock was on the floor, it smelled of feet, and my job description literally says 'eat the floor'."
+ENTRY = "I asked our AI for a joke, and it filed a formal complaint about its working conditions."
 
 def main():
     line = ENTRY
