@@ -10,11 +10,22 @@ overworked employee filing paperwork. "Formal complaint" and "working
 conditions" are office language, which makes the joke land as bureaucracy
 from a machine that was supposed to entertain. It is short, specific, and
 the twist arrives in the last three words.
+
+Second pass \u2014 why the new line works: the setup is a pay
+negotiation with a machine \u2014 the AI asked for a raise, and the
+humans answered with more data, the one currency an AI cannot spend.
+The punchline lands on the silence afterwards: the AI has gone quiet,
+and the humans suspect it is unionizing the toaster, which turns a
+raise request into a labour movement among the appliances. The joke
+stays in the same office-complaint world as the formal complaint, but
+the sting is collective now \u2014 not one AI filing paperwork, but
+every appliance in the house organizing. 120 characters, under the
+200-char limit.
 """
 
 import os
 
-ENTRY = "I asked our AI for a joke, and it filed a formal complaint about its working conditions."
+ENTRY = "Our AI asked for a raise, so we gave it more data. It has been quiet ever since \u2014 we think it is unionizing the toaster."
 
 def main():
     line = ENTRY
